@@ -1,0 +1,277 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+main {
+    background-color: #f9f9f9;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+
+}
+
+p,
+li {
+    color: grey;
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+header,
+.navbar {
+    background-color: rgb(18, 54, 52);
+
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a {
+    color: white;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background-color: grey;
+}
+
+.navbar-nav a {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+/* Área about */
+
+#about-area {
+    background-color: #f9f9f9;
+    padding-top: 3%;
+
+}
+
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title:after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #65daf9;
+    margin-right: 15px;
+}
+
+/* Carousel */
+
+.text-carousel {
+    text-transform: uppercase;
+    color: #444;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+
+.apres-robot {
+    height: 50vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.apres-text {
+    padding-top: 10vh;
+    margin-left: 20px;
+    text-align: center;
+    background-color: black;
+    width: 50%;
+    height: 50vh;
+}
+
+.apres-text p {
+    margin-top: 30px;
+}
+
+.apres-img {
+    background-color: rgb(139, 69, 69);
+    margin-right: 20px;
+    width: 50%;
+    height: 50vh;
+
+}
+
+/* Hardware */
+.size-div {
+    width: 50%;
+}
+
+
+/* Área footer  */
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid black;
+}
+
+.contact-box i {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: black;
+}
+
+#msg-box p {
+    font-size: 22px;
+
+}
+
+#contact-form input [type="text"],
+#contact-form input [type="email"],
+#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+
+}
+
+#contact-form .main-btn:hover {
+    color: yellow;
+
+}
+
+/* Copy */
+
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* Seção para o sistema de armas */
+
+.mr {
+    margin-right: 3%;
+}
+
+.ml {
+    margin-left: 3%;
+}
+
+.text-group {
+    font-size: 20px;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    .text-inovator {
+        margin-top: 20px;
+    }
+
+    /* Carousel */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+
+    }
+
+    .weapon-cards, .group-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
